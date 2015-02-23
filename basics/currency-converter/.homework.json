@@ -1,0 +1,11 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "title": "Currency converter",
+  "description": "Create a set of functions to convert currency from one denomination to another.",
+  "keywords": [
+    "basics",
+    "testing",
+    "exceptions"
+  ]
+}
