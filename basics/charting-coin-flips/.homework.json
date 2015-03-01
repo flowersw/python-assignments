@@ -1,0 +1,10 @@
+{
+  "name": "charting-coin-flips",
+  "version": "1.0.0",
+  "title": "Chart coin flip data",
+  "description": "Learn about different chart types and randomness.",
+  "keywords": [
+    "charting",
+    "randomness"
+  ]
+}
