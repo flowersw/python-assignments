@@ -1,0 +1,11 @@
+{
+  "name": "consumer-complaints",
+  "version": "1.0.0",
+  "title": "Analyze Consumer Complaint Data",
+  "description": "Use pandas to read and analyze data from the CFPB Consumer Complaint Database.",
+  "keywords": [
+    "opengov",
+    "data",
+    "pandas"
+  ]
+}
