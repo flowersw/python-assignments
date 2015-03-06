@@ -1,0 +1,10 @@
+{
+  "name": "iris-bayes",
+  "version": "1.0.0",
+  "title": "Classify Iris data using Bayes methods",
+  "description": "",
+  "keywords": [
+    "machine-learning",
+    "bayes"
+  ]
+}
