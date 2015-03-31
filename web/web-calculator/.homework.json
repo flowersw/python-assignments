@@ -1,0 +1,9 @@
+{
+  "name": "web-calculator",
+  "version": "1.0.0",
+  "title": "Web calculator",
+  "description": "Create a simple web-based calculator.",
+  "keywords": [
+    "web"
+  ]
+}
