@@ -48,18 +48,20 @@ You are allowed to use other code samples as well.
 
 **For your sanity, you only have to worry about the following languages:**
 
+* C (.gcc)
+* C#
+* Common Lisp (.sbcl)
 * Clojure
 * Haskell
 * Java
 * JavaScript
 * OCaml
 * Perl
-* PHP
+* PHP (.hack, .php)
 * Python
-* Ruby
+* Ruby (.jruby, .yarv)
 * Scala
-* Scheme
-* Tcl
+* Scheme (.racket)
 
 Feel more than free to add others!
 
