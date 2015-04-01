@@ -6,4 +6,5 @@ These assignments are written so they could work with Flask or Django. Some reso
 
 * [Web Calculator](web-calculator)
 * [Simple Todo List](simple-todo-list)
+* [URLy Bird](urly-bird) (needs work, currently Flask-only)
 * [Stat Tracker](stat-tracker) (needs work, currently Flask-only)
