@@ -9,3 +9,23 @@ These assignments are written so they could work with Flask or Django. Some reso
 * [URLy Bird](urly-bird) (needs work, currently Flask-only)
 * [Stat Tracker](stat-tracker) (needs work, currently Flask-only)
 * [GitHub OAuth](github-oauth)
+
+
+# Week n
+
+* HTML & CSS assignment?
+* Web calculator
+* Simple todo list
+* Weekend assignment?
+
+# Week n+1
+
+* URLy Bird
+* Stat Tracker
+* ?
+* Weekend assignment?
+
+# Week n + 2
+
+* TodoMVC -- build backend for Angular application
+* ?
