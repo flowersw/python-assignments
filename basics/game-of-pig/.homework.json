@@ -1,0 +1,10 @@
+{
+  "name": "game-of-pig",
+  "version": "1.0.0",
+  "title": "The Game of Pig",
+  "description": "Write a program that implements the game of Pig.",
+  "keywords": [
+    "basics",
+    "games"
+  ]
+}
