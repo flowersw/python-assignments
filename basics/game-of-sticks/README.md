@@ -50,7 +50,7 @@ After completing this assignment, you should be able to:
 
 ### Deliverables
 
-* A Git repo called $name containing at least:
+* A Git repo called game-of-sticks containing at least:
   * `README.md` file explaining how to run your project
   * a `requirements.txt` file
   * a suite of tests for your project
@@ -169,7 +169,7 @@ beside  |       |       |       | 3   |       |       | 2   |       |       |
 
 As the AI wins the game, it will put the balls that are next to the hats back to the hats with extra balls. The situation is now as follows:
 
-        |       |       |       |         |       |       |         |       |       |   
+        |       |       |       |         |       |       |         |       |       |
 ------- | ----- | ----- | ----- | ------- | ----- | ----- | ------- | ----- | ----- | -----
 hat     | 1     | 2     | 3     | 4       | 5     | 6     | 7       | 8     | 9     | 10
 content | 1,2,3 | 1,2,3 | 1,2,3 | 1,2,3,3 | 1,2,3 | 1,2,3 | 1,2,2,3 | 1,2,3 | 1,2,3 | 1,2,3
