@@ -40,8 +40,11 @@ def read_u_data_list(data_file):
 def find_average_rating_of_movie_by_ID(rating_dict):
     average_dict = rating_dict.copy()
     for key, value in average_dict.items():
-        average_value = sum(value) / len(value)
-        average_dict[key] = average_value
+        if len(value) >= 5:
+            average_value = sum(value) / len(value)
+            average_dict[key] = average_value
+        else:
+            continue
     return average_dict
 
 
@@ -73,6 +76,6 @@ if __name__=='__main__':
     data_file = 'u.data'
     item_list = read_u_item_list(item_file)
     data_list = read_u_data_list(data_file)
-    # rating_dict = find_ratings_by_ID(data_list)
-    # print(find_average_rating_of_movie_by_ID(rating_dict))
+    rating_dict = find_ratings_by_ID(data_list)
+    print(find_average_rating_of_movie_by_ID(rating_dict))
     print(find_all_ratings_of_user(data_list))
