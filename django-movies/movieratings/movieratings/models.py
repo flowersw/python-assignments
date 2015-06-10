@@ -9,17 +9,14 @@ class Rater(models.Model):
     occupation = models.IntegerField()
     zipcode = models.CharField(max_length=12)
 
-    def all_movies(self):
-        return self.movie_set.all()
 
-class Movie(models.Model):
-    title = models.CharField(max_length=100)
-    genre = models.CharField(max_length=100)
 
-    def all_ratings(self):
-        return self.rating_set.all()
+class Movies(models.Model):
+    title = models.CharField(max_length=50)
+    genre = models.CharField(max_length=50)
 
-class Rating(models.Model):
+
+class Ratings(models.Model):
     rater = models.ForeignKey(Rater)
-    movie = models.ForeignKey(Movie)
-    rating_value = models.IntegerField()
+    movie = models.ForeignKey(Movies)
+    rating = models.IntegerField()
